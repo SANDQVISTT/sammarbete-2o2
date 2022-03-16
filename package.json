@@ -4,8 +4,9 @@
   "description": "",
   "scripts": {
     "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
-    "clean": "del-cli ./.parcel-cache ./docs ./dist"
+"build": "parcel build ./src/index.html --dist-dir docs --public-url ./",
+"clean": "del-cli ./.parcel-cache ./docs ./dist"
+    
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   },
   "homepage": "https://github.com/SANDQVISTT/sammarbete-2o2#readme",
   "devDependencies": {
-    "del-cli": "^4.0.1",
     "parcel": "^2.3.2"
-  }
+  },
+  "browserslist": ["Firefox>95", "Chrome>95"]
 }
